@@ -1,4 +1,11 @@
 # STAT545 Homework01 Repository
-This is the repository for STAT545 homework assignment 1. 
+## Overview
+I am Yadong, and I am a Ph.D student at UBC linguistics. This is the repository for my **STAT545** homework assignment 1. 
 
-There will be an edited README.md file and an R Markdown document.
+## Content
+There will be a list of files in this repository.
+
+* *A README.md file*
+* *A hw01_instruction.md file given by our instructor*
+* *A hw01_gapminder.Rmd file*
+* *A hw01_gapminder.md file*
