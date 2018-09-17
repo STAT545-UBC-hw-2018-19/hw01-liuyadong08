@@ -1,0 +1,51 @@
+---
+title: "Homework 1--Data frame exploration"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data frame exploration
+
+THe dataset used in this homework is a spread-sheet obtain online. It contains data from which conclusions  that were  drawn  in  the  article  "Sleep  in 
+Mammals: Ecological and Constitutional Correlates" by Allison, T.  and 
+Cicchetti, D. (1976), _Science_, November 12, vol. 194,  pp.  732-734. 
+
+Some rows that contain missing values and some columns were removed from the data, and it was saved as mammals.csv file.
+
+### Setting up
+First, to import the .csv file into R.
+
+```{r}
+data.file = "mammals.csv"
+dat = read.csv(data.file, header = TRUE)
+```
+
+
+### Exploration of data frame
+
+A few funtions as `head`, `ncol`, `str`, and `summary` will be shown as follows.
+
+```{r}
+head(dat)
+ncol(dat)
+str(dat)
+summary(dat)
+```
+
+### Extracting columns and making some plots
+
+First, let's extract some columns
+```{r}
+predation_index = dat$PredationIndex
+danger_index = dat$OverallDanger
+```
+
+Plot a dot plot that has two variables that are body weight and life span
+```{r}
+plot(danger_index, predation_index)
+```
+
+
