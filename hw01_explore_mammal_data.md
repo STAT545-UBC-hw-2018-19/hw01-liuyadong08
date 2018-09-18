@@ -107,6 +107,21 @@ First, let's extract some columns
 ```r
 predation_index = dat$PredationIndex
 danger_index = dat$OverallDanger
+print(predation_index)
+```
+
+```
+##  [1] 3 3 4 1 4 1 1 5 1 2 2 2 5 3 1 5 5 5 5 1 1 4 4 2 2 2 4 2 4 5 3 1 2 2 3
+## [36] 5 2 3 3 4 2
+```
+
+```r
+print(danger_index)
+```
+
+```
+##  [1] 3 4 4 1 4 1 1 4 1 2 2 2 5 2 1 3 4 5 4 1 1 3 3 1 1 2 4 2 4 5 3 1 2 2 3
+## [36] 5 2 3 2 4 1
 ```
 
 Plot a dot plot that has two variables that are body weight and life span
