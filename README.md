@@ -14,4 +14,4 @@ Files list
 
 Folders list
 * *Figures can be found in a folder named hw01_explore_mammal_data_files/figure-html*
-* *A folder named auto-generated-files stores auto-generated files.*
+* *A folder named auto-generated-files stores auto-generated files*
